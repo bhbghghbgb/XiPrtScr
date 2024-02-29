@@ -6,9 +6,12 @@ A screenshot capturer with grid history viewer, can use XInput controller to iss
 
 1. Clone the project
 1. `pipenv install`
-1. Get the dedicated server files
+1. Get the xbox controller
 1. Configure the constants at around the top of `main.pyw` file
 1. Run `main.pyw` with pipenv (`pipenv run python main.pyw`)
+1. Enable 'LT/RT take' in menu 'Option'
+1. Run your game
+1. You can take a screenshot by holding Left Trigger and Right Trigger on the xbox controller to the very back (255/255 value, or max gas, first player controller only)
 
 ## What can do
 
@@ -26,6 +29,8 @@ A screenshot capturer with grid history viewer, can use XInput controller to iss
 > **_NOTE:_**  There are better screenshot capturing tools, this is only made because I couldn't find one that I can use with by xbox controller
 
 > **_note:_**  I can't find a way to capture the Print Screen key
+
+> **_note:_**  It will only check state of the first player controller (the first player xbox controller will show the 9-12 o'clock ring as first player)
 
 ## Requirements
 
